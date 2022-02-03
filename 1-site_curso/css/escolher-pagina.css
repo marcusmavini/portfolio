@@ -1,0 +1,134 @@
+body{
+    background-color: #1b2223;
+}
+
+/* Circulo */
+.circulo-verde{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 10px auto;
+    margin-bottom: 20px;
+	overflow: hidden;
+    filter: drop-shadow(2px 4px 10px #0ef6cc);
+}
+
+/*Div que envolve o círculo*/
+.divona{
+    width: 200px;
+    height: 290px;
+    /*border: 4px solid #f00;*/
+    margin: 0px auto;
+}
+
+.divona p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+  
+/*.circulo:hover{
+
+} */
+
+div img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+div img:hover{
+  filter: brightness(1.1);
+}
+
+footer p{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: smaller;
+}
+
+.circulo-rosa{
+    display: none;
+}
+.circulo-azul{
+    display: none;
+}
+
+@media (max-width: 769px) {
+	a {
+		color:#5f7adb;
+	}
+	
+	.circulo-verde{
+		display: none;
+	}
+	.circulo-azul{
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: transparent;
+		margin: 10px auto;
+		margin-bottom: 20px;
+		filter: drop-shadow(2px 4px 10px #5f7adb);
+		display: inherit;
+		overflow: hidden;
+	}
+
+	.cirulo-rosa{
+		display: none;
+	}
+
+	h1{
+		color: #fff;
+	}
+
+    body {
+        background-color: #26292b;
+    }
+}
+
+@media (max-width: 425px) {
+	nav, article, .inputs-cafe, audio, #motiva{
+		width: 100%;
+	}
+
+	a {
+		color:#e44ec3;
+	}
+
+	section{
+		background-color: #5a0834;
+		filter: drop-shadow(1px 1px 10px #e44ec3);
+	}
+	
+	body{
+		background-color: #1b0112;
+	}
+
+	.circulo-verde{
+		display: none;
+	}
+
+	.circulo-azul{
+		display: none;
+	}
+
+	.circulo-rosa{
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: transparent;
+		margin: 10px auto;
+		margin-bottom: 20px;
+		filter: drop-shadow(2px 4px 10px #e44ec3);
+		display: inherit;
+	}
+
+	h1{
+		color: #fff;
+	}
+}
+
+
