@@ -12,6 +12,8 @@ Eu alterei a cor dos elementos para cada resolução.
 **Celular**: Rosa
 ```
 Não só o estilo do html muda completamente, mas também as fotos que usei como "ícones". Só que usei fotos diferentes para cada cor.
-![Café Verde](https://imgur.com/xuTwOkb)
-![Café Azul](https://imgur.com/eoPxmG0)
-![Café Rosa](https://imgur.com/YKAQiHt)
+
+![Café Verde](https://i.imgur.com/xXg1Hr3.png)
+![Café Azul](https://i.imgur.com/6RClVvy.png)
+![Café Rosa](https://i.imgur.com/UK0c8Xc.png)
+
